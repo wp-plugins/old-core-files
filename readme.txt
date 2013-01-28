@@ -6,10 +6,9 @@ Tested up to: 3.5
 Stable tag: 1.0
 License: GPLv2 or later
 
-Increase your WordPress security by deleting old core files that exist in the filesystem. OCF alerts you to remove old files before hackers exploit them for attacks.
+Increase your WordPress security by deleting old core files that exist in the filesystem before hackers exploit them for attacks.
 
 == Description ==
-
 
 When core is being upgraded, usually some files are no longer used by WordPress, and they are set for removal.
 
@@ -19,6 +18,14 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 
 == Installation ==
 
+1. Install the plugin
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Go to Tools > Old Core Files, or just click on the "Settings" link next to the plugin name on the plugins page
+
+
+== Screenshots ==
+
+1. Main plugin screen, listing old files that may still exist in the filesystem
 
 == Changelog ==
 
