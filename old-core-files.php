@@ -5,7 +5,7 @@
  Description: Old Core Files notifies the user when old core files which are due removal exist in the filesystem
  Author: Maor Chasen, Rami Yushuvaev
  Author URI: http://maorchasen.com
- Version: 1.0
+ Version: 1.1
  License: GPL2+
  */
 
@@ -323,8 +323,12 @@ class Old_Core_Files {
 		<br class="clear" />
 
 		<?php
+		// Get list of files for the selected group
 		$files_to_list = $this->get_files_group( $selected_filter );
 
+		/**
+		 * @todo consider using WP_List_Table instead of arbitrary HTML
+		 */
 		if ( ! empty( $files_to_list ) ) :
 			?>
 			<p><?php esc_html_e( 'We have found some old files in this WordPress installation. Please review the files below.', 'ocf' ); ?></p>
@@ -333,35 +337,39 @@ class Old_Core_Files {
 				<thead>
 					<tr>
 						<th scope="col"><?php esc_html_e( 'File', 'ocf' ); ?></th>
-						<th scope="col" class="action-links"><?php esc_html_e( 'Actions', 'ocf' ); ?></th>
+						<!-- <th scope="col" class="action-links"><?php esc_html_e( 'Actions', 'ocf' ); ?></th> -->
 					</tr>
 				</thead>
 				<tbody>
-				<?php foreach ( $files_to_list as $existing_file ) : ?>
-					<tr>
-						<td>
-							<code><?php echo esc_html( $existing_file ); ?></code>
-						</td>
-						<td class="action-links">
-							<?php if ( current_user_can( $this->view_cap ) ) : // Double check befor allowing 'delete' action ?>
-							<span class="trash">
-								<a href="<?php echo esc_url( wp_nonce_url( add_query_arg( 'delete', $existing_file ) ) ); /* Add nonce, Add 'action=delete', Add File name (for deletion) */ ?>"><?php echo __( 'Delete', 'ocf' ); ?></a>
-							</span>
-							<?php endif; ?>
-						</td>
-					</tr>
-				<?php endforeach; ?>
+					<?php foreach ( $files_to_list as $existing_file ) : ?>
+						<tr>
+							<td>
+								<code><?php echo esc_html( $existing_file ); ?></code>
+							</td>
+						<!--
+							<td class="action-links">
+								<?php if ( current_user_can( $this->view_cap ) ) : // Double check befor allowing 'delete' action ?>
+								<span class="trash">
+									<a href="<?php echo esc_url( wp_nonce_url( add_query_arg( 'delete', $existing_file ) ) ); /* Add nonce, Add 'action=delete', Add File name (for deletion) */ ?>"><?php echo __( 'Delete', 'ocf' ); ?></a>
+								</span>
+								<?php endif; ?>
+							</td>
+						-->
+						</tr>
+					<?php endforeach; ?>
 				</tbody>
 				<tfoot>
 					<tr>
 						<th>
 							<?php printf( __( '%d files in total', 'ocf' ), count( $files_to_list ) ); ?>
 						</th>
+					<!--
 						<th class="action-links">
 							<?php if ( current_user_can( $this->view_cap ) ) : // Double check befor allowing 'delete' action ?>
 							<span class="trash"><a class="button" href="<?php echo esc_url( add_query_arg( 'action', 'trash-all' ) ); /* Add nonce, Add 'action=delete', Add File name (for deletion) */ ?>"><?php echo __( 'Delete All', 'ocf' ); ?></a></span>
 							<?php endif; ?>
 						</th>
+					-->
 					</tr>
 				</tfoot>
 			</table><?php
