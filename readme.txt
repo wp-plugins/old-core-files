@@ -3,7 +3,7 @@ Contributors: maor, ramiy
 Tags: security, core files, old files, old_files, tool
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 
 Increase your WordPress security by deleting old core files that exist in the filesystem before hackers exploit them for attacks.
@@ -16,6 +16,11 @@ On some occasions, PHP has no permissions to delete these files, and they stay o
 
 It's recommended to delete unused themes and plugins as hackers could exploit them for attacks. Same logic applies for deprecated code files.
 
+*Translations:*
+
+*   Serbian - by [Borisa Djuraskovic](http://www.webhostinghub.com)
+
+
 == Installation ==
 
 1. Install the plugin
@@ -27,6 +32,9 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 1. Main plugin screen, listing old files that may still exist in the filesystem
 
 == Changelog ==
+
+= 1.1.2 =
+* Updated plugin with Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com)
 
 = 1.1 =
 
