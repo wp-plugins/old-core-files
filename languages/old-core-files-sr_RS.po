@@ -1,0 +1,110 @@
+# Copyright (C) 2013 Old Core Files
+# This file is distributed under the same license as the Old Core Files package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Old Core Files 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/old-core-files\n"
+"POT-Creation-Date: 2013-01-28 15:55:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-12-11 15:58+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ocf-extension-example.php:19
+msgid "wp-admin Files"
+msgstr "wp-admin datoteke"
+
+#. #-#-#-#-#  plugin.pot (Old Core Files 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: old-core-files.php:150 old-core-files.php:197 old-core-files.php:399
+msgid "Old Core Files"
+msgstr "Old Core datoteke"
+
+#: old-core-files.php:198
+msgid "About"
+msgstr "O"
+
+#: old-core-files.php:301
+msgid "Existing"
+msgstr "Postojeći"
+
+#: old-core-files.php:302
+msgid "All"
+msgstr "Svi"
+
+#: old-core-files.php:334
+msgid ""
+"We have found some old files in this WordPress installation. Please review "
+"the files below."
+msgstr ""
+"Našili smo neke stare datoteke u ovoj WordPress instalaciji. Molimo vas da "
+"pregledate datoteke koje slede."
+
+#: old-core-files.php:339
+msgid "File"
+msgstr "Datoteka"
+
+#: old-core-files.php:340
+msgid "Actions"
+msgstr "Aktivnosti"
+
+#: old-core-files.php:353
+msgid "Delete"
+msgstr "Obriši"
+
+#: old-core-files.php:364
+msgid "%d files in total"
+msgstr "%d ukupno datoteka"
+
+#: old-core-files.php:369
+msgid "Delete All"
+msgstr "Obriši sve"
+
+#: old-core-files.php:377
+msgid ""
+"Seems like there are no old files in your installation. Dont forget to "
+"delete old WordPress files after each upgrade."
+msgstr ""
+"Izgleda da u vašoj instalaciji nema starih datoteka. Ne zaboravite da "
+"obrišete stare WordPress datoteke posle svake nadgradnje."
+
+#: old-core-files.php:384
+msgid "What is this about?"
+msgstr "O čemu se radi?"
+
+#: old-core-files.php:385
+msgid ""
+"When core is being upgraded, there are some files that are no longer needed "
+"by WordPress, and they are set for removal. On some occasions, PHP/Apache "
+"has no permissions to delete these files, and they stay on the server, "
+"potentially exposing your site to attacks (Not always the case, but who "
+"wants to keep old files anyway?)."
+msgstr ""
+"Kad se jezgro unapredi, ostanu neke datoteke koje više nisu potrebne "
+"WordPress-u i treba ih ukloniti. U nekim slučajevima, PHP/Apache nema "
+"dozvole da obriše ove datoteke i one ostaju na serveru, potencijalno "
+"izlažući vaš site napadima (Nije uvek tako, ali ko uopšte želi da čuva stare "
+"datoteke?)"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-tricks.co.il/old_core_files"
+msgstr "http://www.wp-tricks.co.il/old_core_files"
+
+#. Description of the plugin/theme
+msgid ""
+"Old Core Files notifies the user when old core files which are due removal "
+"exist in the filesystem"
+msgstr ""
+"Old Core Files obaveštava korisnika da u sistemu datoteka postoje stare "
+"datoteke jezgra koje treba ukloniti"
+
+#. Author of the plugin/theme
+msgid "Maor Chasen, Rami Yushuvaev"
+msgstr "Maor Chasen, Rami Yushuvaev"
+
+#. Author URI of the plugin/theme
+msgid "http://maorchasen.com"
+msgstr "http://maorchasen.com"
