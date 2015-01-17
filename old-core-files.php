@@ -5,7 +5,7 @@
  Description: Old Core Files notifies the user when old core files which are due removal exist in the filesystem
  Author: Maor Chasen, Rami Yushuvaev
  Author URI: http://maorchasen.com
- Version: 1.1
+ Version: 1.1.2
  License: GPL2+
  */
 
