@@ -34,6 +34,7 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 == Changelog ==
 
 = 1.1.2 =
+
 * Updated plugin with Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com)
 
 = 1.1 =
