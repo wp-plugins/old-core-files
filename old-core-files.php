@@ -5,7 +5,9 @@
  Description: Old Core Files notifies the user when old core files which are due removal exist in the filesystem
  Author: Maor Chasen
  Author URI: http://maorchasen.com
- Version: 1.1.3
+ Version: 1.2
+ Text Domain: ocf
+ Domain Path: /languages
  License: GPL2+
  */
 
@@ -127,7 +129,7 @@ class Old_Core_Files {
 		$this->view_cap = apply_filters( 'ocf_view_cap', $this->view_cap );
 
 		// Load our textdomain to allow multilingual translations
-		load_plugin_textdomain( 'ocf', false, self::$basename . '/languages/' );
+		load_plugin_textdomain( 'ocf', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 
 	/**

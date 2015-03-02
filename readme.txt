@@ -3,7 +3,7 @@ Contributors: maor, ramiy
 Tags: security, core files, old files, old_files, tool
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1.3
+Stable tag: 1.2
 License: GPLv2 or later
 
 Increase your WordPress security by deleting old core files that exist in the filesystem before hackers exploit them for attacks.
@@ -19,7 +19,7 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 = Translations =
 
 * Serbian (sr_RS) - by [Borisa Djuraskovic](http://www.webhostinghub.com)
-* Hebrew  (he_IL) - by [Rami Yushuvav](http://GenerateWP.com)
+* Hebrew  (he_IL) - by [Rami Yushuvaev](http://GenerateWP.com)
 
 == Installation ==
 
@@ -27,7 +27,7 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 1. In your WordPress Dashboard go to "Plugins" -> "Add Plugin".
 2. Search for "Old Core Files".
 3. Install and activate the plugin.
-5. Go to "Tools" -> "Old Core Files".
+4. Go to "Tools" -> "Old Core Files".
 
 = Updating =
 * Use WordPress automatic updates to upgrade to the latest version. Ensure to backup your site just in case.
@@ -44,22 +44,31 @@ It's recommended to delete unused themes and plugins as hackers could exploit th
 
 == Screenshots ==
 
-1. Main plugin screen, listing old files that may still exist in the filesystem.
+1. Main plugin screen in Wordpress 3.5
+1. Main plugin screen in Wordpress 4.0
 
 == Changelog ==
 
+= 1.2 =
+
+* Bug fix: load translation files.
+* Add new screenshot.
+* update readme file.
+
 = 1.1.3 =
 
-* Updated plugin with Hebrew translation by [Rami Yushuvav](http://GenerateWP.com).
+* Add Hebrew translation by [Rami Yushuvaev](http://GenerateWP.com).
+* Improve readme file.
 
 = 1.1.2 =
 
-* Updated plugin with Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com).
+* Add Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com).
 
 = 1.1 =
 
 * Delete buttons removed. We'll have to work on it a bit more before making it available.
-* Added screenshot + improved readme.
+* Add screenshot.
+* Improve readme file.
 
 = 1.0 =
 
