@@ -3,9 +3,9 @@
  Plugin Name: Old Core Files
  Plugin URI: http://www.wp-tricks.co.il/old_core_files
  Description: Old Core Files notifies the user when old core files which are due removal exist in the filesystem
- Author: Maor Chasen, Rami Yushuvaev
+ Author: Maor Chasen
  Author URI: http://maorchasen.com
- Version: 1.1.2
+ Version: 1.1.3
  License: GPL2+
  */
 

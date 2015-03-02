@@ -2,8 +2,8 @@
 Contributors: maor, ramiy
 Tags: security, core files, old files, old_files, tool
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.1.2
+Tested up to: 4.1.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 
 Increase your WordPress security by deleting old core files that exist in the filesystem before hackers exploit them for attacks.
@@ -16,31 +16,50 @@ On some occasions, PHP has no permissions to delete these files, and they stay o
 
 It's recommended to delete unused themes and plugins as hackers could exploit them for attacks. Same logic applies for deprecated code files.
 
-*Translations:*
+= Translations =
 
-*   Serbian - by [Borisa Djuraskovic](http://www.webhostinghub.com)
-
+* Serbian (sr_RS) - by [Borisa Djuraskovic](http://www.webhostinghub.com)
+* Hebrew  (he_IL) - by [Rami Yushuvav](http://GenerateWP.com)
 
 == Installation ==
 
-1. Install the plugin
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to Tools > Old Core Files, or just click on the "Settings" link next to the plugin name on the plugins page
+= Installation =
+1. In your WordPress Dashboard go to "Plugins" -> "Add Plugin".
+2. Search for "Old Core Files".
+3. Install and activate the plugin.
+5. Go to "Tools" -> "Old Core Files".
+
+= Updating =
+* Use WordPress automatic updates to upgrade to the latest version. Ensure to backup your site just in case.
+
+= Minimum Requirements =
+* WordPress version 3.0 or greater.
+* PHP version 5.2.4 or greater.
+* MySQL version 5.0 or greater.
+
+= Recommended  Requirements =
+* The latest WordPress version.
+* PHP version 5.4 or greater.
+* MySQL version 5.5 or greater.
 
 == Screenshots ==
 
-1. Main plugin screen, listing old files that may still exist in the filesystem
+1. Main plugin screen, listing old files that may still exist in the filesystem.
 
 == Changelog ==
 
+= 1.1.3 =
+
+* Updated plugin with Hebrew translation by [Rami Yushuvav](http://GenerateWP.com).
+
 = 1.1.2 =
 
-* Updated plugin with Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com)
+* Updated plugin with Serbian translation by [Borisa Djuraskovic](http://www.webhostinghub.com).
 
 = 1.1 =
 
 * Delete buttons removed. We'll have to work on it a bit more before making it available.
-* Added screenshot + improved readme
+* Added screenshot + improved readme.
 
 = 1.0 =
 

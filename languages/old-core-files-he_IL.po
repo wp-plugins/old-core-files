@@ -1,0 +1,108 @@
+# Copyright (C) 2013 Old Core Files
+# This file is distributed under the same license as the Old Core Files package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Old Core Files 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/old-core-files\n"
+"POT-Creation-Date: 2013-01-28 15:55:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-03-02 02:57+0200\n"
+"Last-Translator: Rami Y <r_a_m_i@hotmail.com>\n"
+"Language-Team: Rami Yushuvaev <r_a_m_i@hotmail.com>\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he_IL\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ocf-extension-example.php:19
+msgid "wp-admin Files"
+msgstr "קבצי wp-admin"
+
+#. Plugin Name of the plugin/theme
+#: old-core-files.php:150 old-core-files.php:197 old-core-files.php:399
+msgid "Old Core Files"
+msgstr "קבצי ליבה ישנים"
+
+#: old-core-files.php:198
+msgid "About"
+msgstr "אודות"
+
+#: old-core-files.php:301
+msgid "Existing"
+msgstr "קיימים"
+
+#: old-core-files.php:302
+msgid "All"
+msgstr "הכל"
+
+#: old-core-files.php:334
+msgid ""
+"We have found some old files in this WordPress installation. Please review "
+"the files below."
+msgstr ""
+"נמצאו קבצי ליבה ישנים בהתקנת וורדפרס זו. למטה ניתן לראות את רשימת הקבצים."
+
+#: old-core-files.php:339
+msgid "File"
+msgstr "קובץ"
+
+#: old-core-files.php:340
+msgid "Actions"
+msgstr "פעולות"
+
+#: old-core-files.php:353
+msgid "Delete"
+msgstr "מחיקה"
+
+#: old-core-files.php:364
+msgid "%d files in total"
+msgstr "%d קבצים בסך הכל"
+
+#: old-core-files.php:369
+msgid "Delete All"
+msgstr "מחק הכל"
+
+#: old-core-files.php:377
+msgid ""
+"Seems like there are no old files in your installation. Dont forget to "
+"delete old WordPress files after each upgrade."
+msgstr "נראה כי בהתקנת וורדפרס זו אין קבצי ליבה ישנים."
+
+#: old-core-files.php:384
+msgid "What is this about?"
+msgstr "במה מדובר?"
+
+#: old-core-files.php:385
+msgid ""
+"When core is being upgraded, there are some files that are no longer needed "
+"by WordPress, and they are set for removal. On some occasions, PHP/Apache "
+"has no permissions to delete these files, and they stay on the server, "
+"potentially exposing your site to attacks (Not always the case, but who "
+"wants to keep old files anyway?)."
+msgstr ""
+"כאשר משדרגים לגרסת וורדפרס חדשה, קבצים מסויימים אינם נחוצים עוד, והם "
+"מיועדים למחיקה. במקרים מסויימים,  אין הרשאות PHP/Apache למחוק קבצים אלה, "
+"והם נותרים על השרת, ועלולים לחשוף את האתר להתקפות (לא תמיד זהו המקרה, אבל "
+"מי ירצה לשמור על קבצים ישנים?). "
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-tricks.co.il/old_core_files"
+msgstr "http://www.wp-tricks.co.il/old_core_files"
+
+#. Description of the plugin/theme
+msgid ""
+"Old Core Files notifies the user when old core files which are due removal "
+"exist in the filesystem"
+msgstr ""
+"קבצי ליבה ישנים מציג למשתמש האם בהתקנת הוורדפרס קיימים קבצי ליבה שאינם "
+"בשימוש וניתנים למחיקה."
+
+#. Author of the plugin/theme
+msgid "Maor Chasen, Rami Yushuvaev"
+msgstr "מאור חזן, רמי יושובייב"
+
+#. Author URI of the plugin/theme
+msgid "http://maorchasen.com"
+msgstr "http://maorchasen.com"
