@@ -2,7 +2,7 @@
 Contributors: maor, ramiy
 Tags: security, core files, old files, old_files, tool
 Requires at least: 3.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.2
 License: GPLv2 or later
 
